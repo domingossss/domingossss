@@ -96,8 +96,9 @@ Os SVGs seguem a mesma paleta técnica em versões escura e clara:
 
 ### Projetos em destaque (`assets/projects/`)
 
-- Cada projeto possui duas prévias vetoriais (`*-dark.svg` e `*-light.svg`) em proporção 16:9 (`640x360`), alternadas automaticamente pelo `<picture>` conforme o tema ativo do visitante no GitHub.
-- Se preferir substituir uma prévia vetorial por uma captura de tela real da aplicação no futuro, salve um `.png` ou `.webp` otimizado (recomendado 1280x720, abaixo de 250 KB) em `assets/projects/` e atualize os caminhos `srcset` e `src` no `README.md`.
+- Cada projeto possui duas prévias vetoriais (`*-dark.svg` e `*-light.svg`) em `880x400`, dimensionadas para leitura nítida em largura total (`width="100%"`) no perfil do GitHub.
+- A alternância entre tema escuro e claro no `README.md` utiliza os fragmentos `#gh-dark-mode-only` e `#gh-light-mode-only` nos links (`href`), o que acompanha diretamente o tema configurado no GitHub (`data-color-mode`: `dark`, `light` ou `auto`), mesmo quando o tema do sistema operacional é diferente.
+- Se preferir substituir uma prévia vetorial por uma captura de tela real da aplicação no futuro, salve um `.png` ou `.webp` otimizado (recomendado 1280x640, abaixo de 250 KB) em `assets/projects/` e atualize os caminhos `src` no `README.md`.
 
 ### Adicionar e-mail ou portfólio futuramente
 
