@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Rodapé do perfil de Victor Hugo Domingos Bastos">
+  <title>Victor Hugo Domingos Bastos — Rodapé</title>
+  <defs>
+    <linearGradient id="footerBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="footerEdgeLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBD5E1" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#2563EB" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#0891B2" stop-opacity="0.85"/>
+      <stop offset="72%" stop-color="#2563EB" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="footerGridLight" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#CBD5E1" stroke-width="0.7" stroke-opacity="0.45"/>
+    </pattern>
+    <clipPath id="footerClipLight">
+      <rect x="1" y="1" width="1198" height="94" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#footerClipLight)">
+    <rect width="1200" height="96" fill="url(#footerBgLight)"/>
+    <rect width="1200" height="96" fill="url(#footerGridLight)"/>
+    <rect x="0" y="0" width="1200" height="2" fill="url(#footerEdgeLight)"/>
+
+    <!-- Corner Marks -->
+    <g stroke="#94A3B8" stroke-width="1.2" fill="none">
+      <path d="M 18 28 V 16 H 30"/>
+      <path d="M 1182 28 V 16 H 1170"/>
+      <path d="M 18 68 V 80 H 30"/>
+      <path d="M 1182 68 V 80 H 1170"/>
+    </g>
+
+    <!-- Subtle Ladder End Motif on Left -->
+    <g stroke="#CBD5E1" stroke-width="1.4" fill="none">
+      <line x1="48" y1="34" x2="48" y2="62" stroke="#2563EB" stroke-opacity="0.8"/>
+      <line x1="48" y1="48" x2="78" y2="48"/>
+      <circle cx="82" cy="48" r="3" fill="#0891B2" stroke="none"/>
+    </g>
+
+    <!-- Identity Text -->
+    <text x="104" y="45" fill="#0F172A" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" letter-spacing="0.2">Victor Hugo Domingos Bastos</text>
+    <text x="104" y="65" fill="#475569" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, monospace" font-size="11">Lorena, São Paulo · Brasil</text>
+
+    <!-- Right Technical Tag -->
+    <text x="1152" y="45" text-anchor="end" fill="#1E293B" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, monospace" font-size="11.5">TI · SOFTWARE · AUTOMAÇÃO INDUSTRIAL</text>
+    <text x="1152" y="65" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, monospace" font-size="10.5">github.com/domingossss</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="94" rx="12" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+</svg>

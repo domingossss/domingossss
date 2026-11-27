@@ -1,0 +1,51 @@
+name: Generate Snake Contribution Graph
+
+on:
+  # Execução automática diária às 06:00 UTC (03:00 BRT)
+  schedule:
+    - cron: "0 6 * * *"
+
+  # Permite disparar manualmente pela aba Actions do GitHub
+  workflow_dispatch:
+
+  # Executa na primeira publicação ou quando este workflow for alterado na branch main
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
+
+concurrency:
+  group: snake-contribution-graph
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Build and publish contribution snake SVGs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate dark and light snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#2563EB&color_dots=#E2E8F0,#BFDBFE,#60A5FA,#2563EB,#0891B2
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#161B22,#1E3A8A,#2563EB,#3B82F6,#22D3EE
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish generated SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          commit_message: "chore(snake): atualiza animacao de contribuicoes"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

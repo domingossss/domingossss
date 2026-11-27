@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-labelledby="ikigaiTitleLight ikigaiDescLight">
+  <title id="ikigaiTitleLight">Prévia visual do sistema Clínica Ikigai</title>
+  <desc id="ikigaiDescLight">Mockup de interface claro do sistema web Clínica Ikigai exibindo grade de agendamentos, menu lateral e painel de indicadores gerenciais.</desc>
+  <defs>
+    <linearGradient id="ikBgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="ikAccentL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <clipPath id="ikClipL">
+      <rect x="1" y="1" width="638" height="358" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ikClipL)">
+    <rect width="640" height="360" fill="url(#ikBgL)"/>
+
+    <!-- Window Top Chrome -->
+    <rect x="0" y="0" width="640" height="36" fill="#F1F5F9"/>
+    <line x1="0" y1="36" x2="640" y2="36" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="20" cy="18" r="4" fill="#CBD5E1"/>
+    <circle cx="34" cy="18" r="4" fill="#CBD5E1"/>
+    <circle cx="48" cy="18" r="4" fill="#CBD5E1"/>
+
+    <!-- Route Bar -->
+    <rect x="76" y="8" width="312" height="20" rx="5" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="88" y="21.5" fill="#475569" font-family="'JetBrains Mono', Consolas, monospace" font-size="10">clinica-ikigai  /agendamentos · /indicadores</text>
+
+    <!-- Architecture Pill -->
+    <rect x="492" y="8" width="132" height="20" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="504" cy="18" r="3" fill="#0891B2"/>
+    <text x="514" y="21.5" fill="#1E293B" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">FULL-STACK · SQL</text>
+
+    <!-- Left Sidebar -->
+    <rect x="0" y="36" width="122" height="288" fill="#F8FAFC"/>
+    <line x1="122" y1="36" x2="122" y2="324" stroke="#E2E8F0" stroke-width="1"/>
+
+    <text x="16" y="60" fill="#0F172A" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Clínica Ikigai</text>
+    <text x="16" y="74" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">GESTÃO CLÍNICA</text>
+
+    <!-- Active Nav Item -->
+    <rect x="10" y="88" width="102" height="26" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="0.9"/>
+    <rect x="10" y="93" width="3" height="16" rx="1.5" fill="#0891B2"/>
+    <text x="22" y="105" fill="#1E3A8A" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600">Agenda</text>
+
+    <!-- Other Nav Items -->
+    <text x="22" y="135" fill="#475569" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5">Pacientes</text>
+    <text x="22" y="161" fill="#475569" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5">Profissionais</text>
+    <text x="22" y="187" fill="#475569" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5">Serviços</text>
+    <text x="22" y="213" fill="#0891B2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600">Indicadores</text>
+
+    <!-- DB Integrity Card in Sidebar -->
+    <rect x="10" y="246" width="102" height="64" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="16" y="263" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="7.8">BANCO DE DADOS</text>
+    <text x="16" y="279" fill="#0F172A" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="600">MySQL 8 InnoDB</text>
+    <text x="16" y="294" fill="#475569" font-family="'JetBrains Mono', Consolas, monospace" font-size="7.5">Transações · Views</text>
+
+    <!-- Center Workspace: Weekly Schedule Grid -->
+    <text x="138" y="60" fill="#0F172A" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Grade de Agendamentos</text>
+    <text x="138" y="74" fill="#64748B" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9.5">Controle de jornadas, intervalos (+15 min) e bloqueios sem conflito</text>
+
+    <rect x="138" y="86" width="318" height="224" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+
+    <!-- Schedule Column Headers -->
+    <line x1="138" y1="112" x2="456" y2="112" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="156" y="102" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">HORA</text>
+    <text x="210" y="102" fill="#475569" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">SEG</text>
+    <text x="266" y="102" fill="#2563EB" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5" font-weight="700">TER</text>
+    <text x="322" y="102" fill="#475569" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">QUA</text>
+    <text x="378" y="102" fill="#475569" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">QUI</text>
+    <text x="428" y="102" fill="#475569" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">SEX</text>
+
+    <!-- Grid Rows -->
+    <g stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="2 2">
+      <line x1="138" y1="150" x2="456" y2="150"/>
+      <line x1="138" y1="190" x2="456" y2="190"/>
+      <line x1="138" y1="230" x2="456" y2="230"/>
+      <line x1="138" y1="270" x2="456" y2="270"/>
+    </g>
+    <g fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">
+      <text x="148" y="135">08:00</text>
+      <text x="148" y="175">10:00</text>
+      <text x="148" y="215">13:00</text>
+      <text x="148" y="255">15:00</text>
+      <text x="148" y="294">17:00</text>
+    </g>
+
+    <!-- Appointment Slots -->
+    <rect x="194" y="119" width="48" height="26" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+    <rect x="250" y="119" width="48" height="44" rx="4" fill="#CFFAFE" stroke="#0891B2" stroke-width="1"/>
+    <rect x="306" y="156" width="48" height="28" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+    <rect x="362" y="119" width="48" height="26" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+    <rect x="194" y="196" width="48" height="28" rx="4" fill="#CFFAFE" stroke="#0891B2" stroke-width="1"/>
+    <rect x="250" y="196" width="48" height="28" rx="4" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 2"/>
+    <rect x="306" y="236" width="48" height="28" rx="4" fill="#CFFAFE" stroke="#0891B2" stroke-width="1"/>
+    <rect x="362" y="196" width="48" height="48" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+    <rect x="416" y="156" width="32" height="28" rx="4" fill="#CFFAFE" stroke="#0891B2" stroke-width="1"/>
+    <rect x="416" y="236" width="32" height="42" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+
+    <g fill="#0F172A" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="7.5" font-weight="600">
+      <text x="200" y="135">Consulta</text>
+      <text x="256" y="138">Sessão</text>
+      <text x="256" y="150" fill="#475569" font-weight="400">Confirm.</text>
+      <text x="312" y="173">Avaliação</text>
+      <text x="368" y="135">Triagem</text>
+      <text x="200" y="213">Terapia</text>
+      <text x="256" y="213" fill="#475569" font-weight="400">Bloqueio</text>
+      <text x="312" y="253">Sessão</text>
+      <text x="368" y="216">Retorno</text>
+      <text x="368" y="229" fill="#475569" font-weight="400">15:00</text>
+    </g>
+
+    <!-- Right Panel: KPIs & Analytics -->
+    <text x="470" y="60" fill="#0F172A" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Indicadores</text>
+    <text x="470" y="74" fill="#64748B" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9.5">Painel Chart.js + SSE</text>
+
+    <!-- KPI Card 1 -->
+    <rect x="470" y="86" width="154" height="66" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="482" y="104" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">OCUPAÇÃO DIÁRIA</text>
+    <text x="482" y="126" fill="#0F172A" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Snapshots</text>
+    <rect x="482" y="136" width="130" height="5" rx="2.5" fill="#E2E8F0"/>
+    <rect x="482" y="136" width="96" height="5" rx="2.5" fill="url(#ikAccentL)"/>
+
+    <!-- KPI Chart Card -->
+    <rect x="470" y="162" width="154" height="148" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="482" y="180" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">ATENDIMENTOS</text>
+    <rect x="486" y="242" width="14" height="36" rx="2" fill="#BFDBFE"/>
+    <rect x="508" y="226" width="14" height="52" rx="2" fill="#60A5FA"/>
+    <rect x="530" y="210" width="14" height="68" rx="2" fill="#2563EB"/>
+    <rect x="552" y="220" width="14" height="58" rx="2" fill="#60A5FA"/>
+    <rect x="574" y="198" width="14" height="80" rx="2" fill="#0891B2"/>
+    <rect x="596" y="214" width="14" height="64" rx="2" fill="#2563EB"/>
+    <line x1="482" y1="278" x2="614" y2="278" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="482" y="296" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="8">API Express · SSE Live</text>
+
+    <!-- Bottom Tech Strip -->
+    <rect x="0" y="324" width="640" height="36" fill="#F1F5F9"/>
+    <line x1="0" y1="324" x2="640" y2="324" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="16" y="346" fill="#475569" font-family="'JetBrains Mono', Consolas, monospace" font-size="10">
+      <tspan fill="#2563EB" font-weight="600">STACK</tspan>  React · TypeScript · Vite · Tailwind CSS · Node.js · Express · MySQL
+    </text>
+    <text x="624" y="346" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">FATEC PI</text>
+  </g>
+
+  <rect x="1" y="1" width="638" height="358" rx="12" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+</svg>

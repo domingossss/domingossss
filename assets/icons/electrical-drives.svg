@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 30" width="178" height="30" role="img" aria-label="Acionamentos Elétricos">
+  <title>Acionamentos Elétricos</title>
+  <rect x="0.75" y="0.75" width="176.5" height="28.5" rx="6" fill="#111827" stroke="#2B3544" stroke-width="1.2"/>
+  <rect x="0.75" y="6" width="2.5" height="18" rx="1.25" fill="#22D3EE"/>
+  <g transform="translate(11, 7)">
+  <path d="M9 1.5L3.8 8.8h4L7 14.5l5.2-7.3h-4L9 1.5z" fill="none" stroke="#22D3EE" stroke-width="1.35" stroke-linejoin="round"/>
+  </g>
+  <text x="35" y="19.2" fill="#F8FAFC" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Acionamentos Elétricos</text>
+</svg>
